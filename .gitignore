@@ -1,0 +1,184 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+media/
+staticfiles/
+
+# Django Cache
+*.mo
+*.pot
+
+# =========================
+# Node.js / React / Next.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.next/
+.nuxt/
+out/
+dist/
+
+# Vite
+.vite/
+
+# React Build
+build/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# JetBrains
+*.iml
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite3
+
+# PostgreSQL Dumps
+*.sql
+*.dump
+*.backup
+
+# =========================
+# Docker
+# =========================
+.docker/
+
+# Docker Volumes
+postgres_data/
+redis_data/
+
+# =========================
+# Machine Learning
+# =========================
+models/
+checkpoints/
+weights/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# TensorBoard
+runs/
+
+# =========================
+# Data Engineering
+# =========================
+data/raw/
+data/processed/
+data/intermediate/
+
+# Generated CSVs
+*.csv
+
+# Generated Excel Files
+*.xlsx
+*.xls
+
+# Large Data Files
+*.parquet
+*.feather
+
+# =========================
+# Secrets
+# =========================
+secrets/
+credentials/
+service-account.json
+*.pem
+*.key
+
+# AWS
+.aws/
+
+# GCP
+.gcp/
+
+# Azure
+.azure/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Coverage Reports
+# =========================
+coverage/
+.coverage
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
+*~
+
+# =========================
+# Keep Important Templates
+# =========================
+!.gitkeep
+!.env.example
